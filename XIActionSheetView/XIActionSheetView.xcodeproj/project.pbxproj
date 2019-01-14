@@ -15,6 +15,7 @@
 		30CA9E4021EC745A00B8D5D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CA9E3F21EC745A00B8D5D5 /* main.m */; };
 		30CA9E4A21EC745A00B8D5D5 /* XIActionSheetViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CA9E4921EC745A00B8D5D5 /* XIActionSheetViewTests.m */; };
 		30CA9E5521EC745A00B8D5D5 /* XIActionSheetViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CA9E5421EC745A00B8D5D5 /* XIActionSheetViewUITests.m */; };
+		30CA9E6521EC758300B8D5D5 /* XIActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CA9E6421EC758300B8D5D5 /* XIActionSheetView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		30CA9E5021EC745A00B8D5D5 /* XIActionSheetViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XIActionSheetViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30CA9E5421EC745A00B8D5D5 /* XIActionSheetViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XIActionSheetViewUITests.m; sourceTree = "<group>"; };
 		30CA9E5621EC745B00B8D5D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30CA9E6321EC758300B8D5D5 /* XIActionSheetView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XIActionSheetView.h; sourceTree = "<group>"; };
+		30CA9E6421EC758300B8D5D5 /* XIActionSheetView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XIActionSheetView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		30CA9E2F21EC745500B8D5D5 /* XIActionSheetView */ = {
 			isa = PBXGroup;
 			children = (
+				30CA9E6221EC755200B8D5D5 /* Source */,
 				30CA9E3021EC745500B8D5D5 /* AppDelegate.h */,
 				30CA9E3121EC745500B8D5D5 /* AppDelegate.m */,
 				30CA9E3321EC745500B8D5D5 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				30CA9E5621EC745B00B8D5D5 /* Info.plist */,
 			);
 			path = XIActionSheetViewUITests;
+			sourceTree = "<group>";
+		};
+		30CA9E6221EC755200B8D5D5 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				30CA9E6321EC758300B8D5D5 /* XIActionSheetView.h */,
+				30CA9E6421EC758300B8D5D5 /* XIActionSheetView.m */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30CA9E3521EC745500B8D5D5 /* ViewController.m in Sources */,
+				30CA9E6521EC758300B8D5D5 /* XIActionSheetView.m in Sources */,
 				30CA9E4021EC745A00B8D5D5 /* main.m in Sources */,
 				30CA9E3221EC745500B8D5D5 /* AppDelegate.m in Sources */,
 			);
